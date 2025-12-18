@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>McDonald's | I Would Like</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      background-color: #fff;
+    }
+
+    /* 顶部导航 */
+    header {
+      background-color: #d6001c;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    /* Banner */
+    .banner {
+      background-color: #ffc72c;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .banner h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #d6001c;
+    }
+
+    .banner p {
+      font-size: 18px;
+    }
+
+    /* 产品区 */
+    .products {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .products h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .card img {
+      width: 100%;
+      max-width: 200px;
+    }
+
+    .card h4 {
+      margin: 15px 0 10px;
+    }
+
+    .card button {
+      background-color: #d6001c;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    /* 页脚 */
+    footer {
+      background-color: #333;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>McDonald's</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Offer</a>
+    <a href="#">About us</a>
+  </nav>
+</header>
+
+<section class="banner">
+  <h2>I Would Like 🍔</h2>
+  <p>Deliciousness Starts Now</p>
+</section>
+
+<section class="products">
+  <h3>Best sellers</h3>
+  <div class="product-list">
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Big Mac">
+      <h4>Big Mac</h4>
+      <p>Double beef, timeless flavor</p>
+      <button>Order now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="French Fries">
+      <h4>French Fries</h4>
+      <p>Crispy outside, soft inside</p>
+      <button>Order now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Coca-cola">
+      <h4>Coca-Cola</h4>
+      <p>ice cold refreshment</p>
+      <button>Order now</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+McDonald's ©
+</footer>
+
+</body>
+</html>
